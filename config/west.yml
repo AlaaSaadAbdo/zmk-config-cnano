@@ -4,12 +4,16 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: badjeff
       url-base: https://github.com/badjeff
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: feat/pointers-move-scroll
+      remote: petejohanson
+      # revision: dbbeb701aee215fbd5f5e9faecc778b745d4cf87 #pmw3610 trackball issue
+      revision: feat/pointers-move-scroll-ptp #pmw3610 trackball issue
+      # revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: badjeff
