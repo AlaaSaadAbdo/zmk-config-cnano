@@ -6,11 +6,16 @@ manifest:
     #   url-base: https://github.com/inorichi
     - name: badjeff
       url-base: https://github.com/badjeff
+    - name: AlaaSaadAbdo
+      url-base: https://github.com/AlaaSaadAbdo
   projects:
-    - name: zmk
-      remote: petejohanson
-      revision: dbbeb701aee215fbd5f5e9faecc778b745d4cf87 #pmw3610 trackball issue
+    # - name: zmk
+    #   remote: petejohanson
+    #   revision: dbbeb701aee215fbd5f5e9faecc778b745d4cf87 #pmw3610 trackball issue
       # revision: feat/pointers-move-scroll
+     - name: zmk
+      remote: AlaaSaadAbdo
+      revision: windows-10-pmw3610-pointer
       import: app/west.yml
     - name: chiptuner-zmk-module
       remote: petejohanson
