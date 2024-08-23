@@ -13,7 +13,7 @@ manifest:
     #   remote: petejohanson
     #   revision: dbbeb701aee215fbd5f5e9faecc778b745d4cf87 #pmw3610 trackball issue
       # revision: feat/pointers-move-scroll
-     - name: zmk
+    - name: zmk
       remote: AlaaSaadAbdo
       revision: windows-10-pmw3610-pointer
       import: app/west.yml
